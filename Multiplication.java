@@ -5,7 +5,7 @@ public static void main(String[] args){
 
 Scanner input = new Scanner(System.in);
 
-System.out.print("Enter number: ");
+System.out.print("Enter number rang from 1 t0 10: ");
 int userInput = input.nextInt();
 
 
