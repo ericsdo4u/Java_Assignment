@@ -9,11 +9,12 @@ System.out.println("Enter array length: ");
 int array = input.nextInt();
 
 double[] myList = new double[array];
-System.out.println("Enter elements :");
 
 double max = myList[0];
 
-for (int i = 1; i < myList.length; i++){ 
+System.out.println("Enter elements :");
+
+for (int i = 0; i < myList.length; i++){ 
 myList[i] = input.nextDouble();
 
  if (myList[i] > max){
@@ -21,7 +22,7 @@ myList[i] = input.nextDouble();
 
 }
 }
-System.out.print(+max  );
+System.out.print("Max element is " +max  );
 
 }
 }
